@@ -94,7 +94,12 @@ header{
     background: #7ac1b7;
 }
 
-
+div.lorem-content{  padding: 2rem 0;
+                    background-color: #ececec;
+}
+div.lorem-content h1{
+    margin: 10px auto;
+}
 @media screen and (min-width:992px) {
 
     .main-navigation,
