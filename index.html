@@ -93,6 +93,19 @@ and open the template in the editor.
         <script>
             var droCatererMainMenu = $('.main-navigation ul.menu').clone();
             $(droCatererMainMenu).droSlidingMenu();
+            
+            (function($){
+            $(window).scroll(function(){
+                var stickyNavTop = $('.main-navigation').offset().top;
+                var scrollTop = $(window).scrollTop();
+                if(stickyNavTop < scrollTop){
+                    $('.main-navigation').addClass('sticky-header');
+                }else{
+                    $('.main-navigation').removeClass('sticky-header');
+                }
+            });                
+            })(jQuery);
+
         </script>
 
     </body>
