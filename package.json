@@ -1,0 +1,24 @@
+{
+    "name": "dro-sliding-menu",
+    "version": "1.0.2",
+    "description": "A jQuery plugin to create a responsive sliding menu",
+    "main": "js/dro-sliding-menu.js",
+    "files": [
+        "js/dro-sliding-menu.js",
+        "css/",
+        "README.md",
+        "License"
+    ],
+    "peerDependencies": {
+        "jquery": ">=1.9.0"
+    },
+    "keywords": [
+        "menu",
+        "sliding",
+        "responsive",
+        "jquery",
+        "wordpress"
+    ],
+    "author": "Younes DRO",
+    "license": "MIT"
+}
